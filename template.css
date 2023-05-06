@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+   
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul, nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    
+    
+
+}
+nav ul {
+    display: flex;
+    
+}
+nav a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: green;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: rgb(2, 135, 252);
+    color: green;
+}
+
+#banner{
+    background-image: url(tijolo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
