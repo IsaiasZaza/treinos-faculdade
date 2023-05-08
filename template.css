@@ -1,3 +1,6 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body {
     margin: 0;
     padding: 0;
@@ -29,7 +32,7 @@ header{
 nav ul, nav li{
     list-style: none;
     margin: 0;
-    padding: 0px;
+    padding: 0;
     
     
 
@@ -44,6 +47,7 @@ nav a{
     text-decoration: none;
     text-transform: uppercase;
     color: green;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav .active a,
@@ -53,8 +57,66 @@ nav a:hover {
 }
 
 #banner{
-    background-image: url(tijolo.jpg);
+    display: flex;
+    justify-content: center;
+    background-image: url(/tijolo.jpg);
     background-position: center;
     background-size: cover;
-    height: 670px;
+    height: 750px;
+    flex-direction: row;
 }
+
+.column{
+    flex-direction: column;
+}
+
+.banner_head {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+     
+    
+}
+.banner_head h1 {
+    color: white;
+    font-size: 70px;
+    text-shadow: 1px 2px 2px; 
+    margin: 0;
+    padding: 0;
+    max-width: 300px;
+}
+.banner_head h2 {
+    color: white;
+    font-size: 21px;
+    text-shadow: 1px 2px 2px; 
+    margin: 0;
+    padding: 0;
+    max-width:  350px;
+    margin-top: 30px;
+}
+.banner_opt {
+    height: 210px;
+    display: flex;  
+}
+.banner1,
+.banner2,
+.banner3{
+    flex: 1;
+    color: white;
+    padding: 20px;
+    
+}
+
+.banner1{
+    background-color: wheat;
+}
+.banner2{
+    background-color: red;
+}
+.banner3{
+    background-color: blue;
+}
+
+banner-title{}
