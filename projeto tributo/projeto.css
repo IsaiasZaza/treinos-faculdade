@@ -1,116 +1,109 @@
-*{
-    padding: 0;
-    font-family: Andale Mono, monospace;
-    margin: 0 auto;
-    box-sizing: border-box;
-    
-    
-  }
+* {
+  padding: 0;
+  font-family: Andale Mono, monospace;
+  margin: 0;
+  box-sizing: border-box;
 
-body{
-    background-image: url(cruz.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center,center;
-    height: 100vh;
-    
-    
 
 }
-.isaias{
-  background-color: red;
-  
-}
+
 .menu-h {
-    background: darkgray;
-    position: relative;
-    width: 100%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    
-  }
-  
-  .menu-h ul {
-    max-width: 800px;
-    list-style-type: none;
-    padding: 0;
-    background-color: rgba(255, 255, 255, 0.021);
-  
-  }
-  
-  .menu-h ul li {
-    display: inline;
-  }
-  
-  .menu-h ul li a {
-    padding: 25px;
-    text-decoration: none;
-    display: inline-block;
-    transition: background .5s;
-    color: #dcd4cf
-  }
-  
-  .menu-h ul li a:hover {
-    color: #b3998a;
-  
-  }
-.home2{
-    background-color: #1e1e1e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2vw;
-    flex-direction: row;
-   
-    
-    
-    
-
-  }
-
-/*main{
-    display: flex;   
-    
-}
-img{
-    border-radius: 5%;
-    margin: auto;
-    
-}
-
-.conteiner{
-  width: 1300px;
-  margin: auto;
+  background: rgb(46, 86, 0);
   position: relative;
-  color: white;
-}
-.conteiner img{
   width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
 }
 
-.Inicio{
-    position: absolute;
-    bottom:0;
-    left: 0;
-    text-align: center;
-    background-color: red;
-    padding: 10px;
+.menu-h ul {
+  max-width: 800px;
+  list-style-type: none;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.021);
+
 }
-.inicio1{
-  position: absolute;
-    top:0;
-    left: 0;
-    text-align: center;
-    background-color: red;
-    padding: 10px;
+
+.menu-h ul li {
+  display: inline;
 }
-.inicio2{
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transition: translate(-50%, -50%);
-    text-align: center;
-    background-color: red;
-    padding: 10px;
+
+.menu-h ul li a {
+  padding: 25px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background .5s;
+  color: #dcd4cf
+}
+
+.menu-h ul li a:hover {
+  color: #b3998a;
+
+}
+
+#conteudo {
+  background: url(thechosen.png) no-repeat, black;
+  background-size: cover;
+  width: 100%;
+  height: 40em;
+  text-align: center;
+  justify-content: center;
+  
+
+
+
+}
+
+h1 {
+  font-size: 80px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 14em;
+  margin-block-start: 0em;
+  color: white;
+  text-shadow: 4px 3px 2px blue;
+}
+
+
+#conteudo h2 {
+  font-size: 5em;
+  margin-block-end: 0.90em;
+  justify-content: center;
+  text-align: center;
+  margin-block-end: 1em;
+  margin-left: 14em;
+  color: white;
+  text-shadow: 4px 3px 2px blue;
+}
+
+#conteudo h3 {
+  font-size: 20px;
+  margin-top: -3em;
+  justify-content: center;
+  text-align: center;
+  margin-left: 56em;
+  margin-block-end: 3em;
+  color: white;
+  text-shadow: 4px 3px 2px blue;
+}
+
+
+
+#biografia {
+  justify-content: center;
+  text-align: center;
+  font-size: 2vw;
+  background-color: black;
+  color: white;
+  border-top: 3px solid green;
+  border-bottom: 3px solid green;
+  text-shadow: 4px 3px 2px blue;
+}
+.info1{
+  background-color: aqua;
+
+}
+/*.texto{
+  text-align: ;
 }
