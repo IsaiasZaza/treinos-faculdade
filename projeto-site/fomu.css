@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, blue, black);
+    color: white;
+}
+
+/*ajustes da BOX do formulário*/
+
+.box {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 45%;
+}
+
+/*efeito da linha de borda do formulário*/
+
+fieldset {
+    border: 3px solid dodgerblue;
+}
+
+/*ajustes na legenda do formulário*/
+
+legend {
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+
+/*efeito e posição das box*/
+
+.inputBox {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+*/
+/*efeitos das LABELs pra o nome subir, e pole valid não desce a legenda*/
+
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .8s;
+
+}
+
+.inputUser:focus~.labelInput,
+.inputUser:valid~.labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+    
+}
+
+/*ajustes data nascimento*/
+
+#data_nascimento {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+/*ajustes no botão enviar*/
+
+#submit {
+    box-shadow: 3px 4px 0px 0px blue;
+    background: linear-gradient(to bottom, blue, black);
+    background-color:blue;
+    border-radius: 18px;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px blue;
+    width: 100%;
+}
+
+/*efeito ao passar o mouse por cima, escurecer*/
+
+#submit:hover {
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+    transition: 0.5s;
+}
+#subit:active {
+position:relative;
+top:1px;
+}
