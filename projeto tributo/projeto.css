@@ -1,34 +1,116 @@
 *{
-    margin: 0;
     padding: 0;
-}
+    font-family: Andale Mono, monospace;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+    
+  }
+
 body{
-    background-color: gray;
+    background-image: url(cruz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center,center;
+    height: 100vh;
+    
+    
+
 }
-.conteiner{
+.isaias{
+  background-color: red;
+  
+}
+.menu-h {
+    background: darkgray;
+    position: relative;
+    width: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
-    flex-direction: column;
-    background-color: rgba(153, 153, 153, 0.453);
-    color: white;
-}
-main{
+    
+  }
+  
+  .menu-h ul {
+    max-width: 800px;
+    list-style-type: none;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.021);
+  
+  }
+  
+  .menu-h ul li {
+    display: inline;
+  }
+  
+  .menu-h ul li a {
+    padding: 25px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .5s;
+    color: #dcd4cf
+  }
+  
+  .menu-h ul li a:hover {
+    color: #b3998a;
+  
+  }
+.home2{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    flex-direction: row;
+   
+    
+    
+    
+
+  }
+
+/*main{
     display: flex;   
-    background-image: url(jesus-cristo-l.webp);
+    
+}
+img{
+    border-radius: 5%;
     margin: auto;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 300px;
-    width: 300px;
-    background-size: cover;
-
+    
 }
 
-.kkkk{
+.conteiner{
+  width: 1300px;
+  margin: auto;
+  position: relative;
+  color: white;
+}
+.conteiner img{
+  width: 100%;
+}
+
+.Inicio{
+    position: absolute;
+    bottom:0;
+    left: 0;
     text-align: center;
-    margin-top: 100%;
+    background-color: red;
+    padding: 10px;
+}
+.inicio1{
+  position: absolute;
+    top:0;
+    left: 0;
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+}
+.inicio2{
+    position: absolute;
+    top:50%;
     left: 50%;
+    transition: translate(-50%, -50%);
+    text-align: center;
+    background-color: red;
+    padding: 10px;
 }
