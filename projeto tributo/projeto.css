@@ -8,7 +8,7 @@
 }
 
 .menu-h {
-  background: rgb(46, 86, 0);
+  background: #403917;
   position: relative;
   width: 100%;
   display: flex;
@@ -21,7 +21,7 @@
   max-width: 800px;
   list-style-type: none;
   padding: 0;
-  background-color: rgba(255, 255, 255, 0.021);
+  background-color: #403917(255, 255, 255, 0.021);
 
 }
 
@@ -34,11 +34,11 @@
   text-decoration: none;
   display: inline-block;
   transition: background .5s;
-  color: #dcd4cf
+  color: #BFA393;
 }
 
 .menu-h ul li a:hover {
-  color: #b3998a;
+  color: white; /* precisa alterar*/
 
 }
 
@@ -59,10 +59,10 @@ h1 {
   font-size: 80px;
   justify-content: center;
   text-align: center;
-  margin-left: 14em;
+  margin-left: 12em;
   margin-block-start: 0em;
-  color: white;
-  text-shadow: 4px 3px 2px blue;
+  color: #BFA393;
+  text-shadow: 4px 3px 2px #595519;
 }
 
 
@@ -72,9 +72,9 @@ h1 {
   justify-content: center;
   text-align: center;
   margin-block-end: 1em;
-  margin-left: 14em;
-  color: white;
-  text-shadow: 4px 3px 2px blue;
+  margin-left: 12em;
+  color: #BFA393;
+  text-shadow: 4px 3px 2px #595519;
 }
 
 #conteudo h3 {
@@ -82,10 +82,10 @@ h1 {
   margin-top: -3em;
   justify-content: center;
   text-align: center;
-  margin-left: 56em;
+  margin-left: 48em;
   margin-block-end: 3em;
-  color: white;
-  text-shadow: 4px 3px 2px blue;
+  color: #BFA393;
+  text-shadow: 4px 3px 2px #595519;
 }
 
 
@@ -94,16 +94,55 @@ h1 {
   justify-content: center;
   text-align: center;
   font-size: 2vw;
-  background-color: black;
-  color: white;
-  border-top: 3px solid green;
-  border-bottom: 3px solid green;
-  text-shadow: 4px 3px 2px blue;
+  background-color: #403917;
+  color: #BFA393;
+  border-top: 3px solid #BFA393;
+  border-bottom: 3px solid #BFA393;
+  text-shadow: 4px 3px 2px #595519;
 }
 .info1{
-  background-color: aqua;
-
+  display: flex;
+  background-color: #595519;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+    
 }
-/*.texto{
-  text-align: ;
+.info1 img{
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid#595519;
+    width: 15vw;
+    margin: 90px 30px 30px;
+    opacity: 90%;
+    box-sizing: border-box;
+  
+  
+  
+}
+.info1 p{
+    display: flex;
+    color: #BFA393;
+    /*font-family:*/
+    font-size: 1.2vw;
+    width: 50%;
+    align-items: center;
+    text-align: justify;
+    text-indent: 10px;
+    justify-content: center;
+    
+  }
+
+#info2{
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5vw;
+  background-color: #403917;
+  color: #BFA393;
+  border-top: 3px solid #BFA393;
+  border-bottom: 3px solid #BFA393;
+  text-shadow: 3px 2px 1px #BFA393;
+}
+#cesto{
+  background-color: #595519;
 }
