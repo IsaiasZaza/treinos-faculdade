@@ -145,4 +145,65 @@ h1 {
 }
 #cesto{
   background-color: #595519;
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+
+#cesto img{
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid#595519;
+    width: 17vw;
+    margin: 90px 30px 30px;
+    opacity: 90%;
+    box-sizing: border-box;
+    right: 16em;
+}
+#cesto p{
+  color: #BFA393;
+  /*font-family:*/
+  font-size: 1.2vw;
+  width: 50%;
+  text-indent: 10px;
+ 
+}
+.textocentro{
+  position: relative;
+  top: 12em;
+  left: 11.8em;
+  
+  
+  
+} 
+.textocima{
+  position: relative;
+  right: 21em;
+  top: 2em;
+}
+#quebra{
+  background-color: green;
+  width: 25%;
+  margin: auto;
+  padding-top: 25px;
+} 
+/*#sepulcro{
+  ??
+}*/
+#quebra2{
+  background-color: green;
+  width: 25%;
+  margin: auto;
+  padding-top: 25px;
+}
+#sepulcro img{
+  height: 20em;
+  width: 30em;
+  position: relative;
+  margin-top: 2em;
+  left: 37.2%;
+  
+}
+/*.historia{
+  ?
 }
