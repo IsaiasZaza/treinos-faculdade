@@ -8,7 +8,7 @@
 }
 
 .menu-h {
-  background: #403917;
+  background: #8C4830;
   position: relative;
   width: 100%;
   display: flex;
@@ -34,11 +34,12 @@
   text-decoration: none;
   display: inline-block;
   transition: background .5s;
-  color: #BFA393;
+  color: #F2F2F0;
 }
 
 .menu-h ul li a:hover {
-  color: white; /* precisa alterar*/
+  color: #BFA393;
+  /* precisa alterar*/
 
 }
 
@@ -49,20 +50,20 @@
   height: 40em;
   text-align: center;
   justify-content: center;
-  
+
 
 
 
 }
 
-h1 {
+#conteudo h1 {
   font-size: 80px;
   justify-content: center;
   text-align: center;
   margin-left: 12em;
   margin-block-start: 0em;
-  color: #BFA393;
-  text-shadow: 4px 3px 2px #595519;
+  color: #F2F2F0;
+  text-shadow: 4px 3px 2px #BFA393;
 }
 
 
@@ -73,8 +74,8 @@ h1 {
   text-align: center;
   margin-block-end: 1em;
   margin-left: 12em;
-  color: #BFA393;
-  text-shadow: 4px 3px 2px #595519;
+  color: #F2F2F0;
+  text-shadow: 4px 3px 2px #BFA393;
 }
 
 #conteudo h3 {
@@ -84,8 +85,8 @@ h1 {
   text-align: center;
   margin-left: 48em;
   margin-block-end: 3em;
-  color: #BFA393;
-  text-shadow: 4px 3px 2px #595519;
+  color: #F2F2F0;
+  text-shadow: 4px 3px 2px #BFA393;
 }
 
 
@@ -94,127 +95,204 @@ h1 {
   justify-content: center;
   text-align: center;
   font-size: 2vw;
-  background-color: #403917;
-  color: #BFA393;
-  border-top: 3px solid #BFA393;
-  border-bottom: 3px solid #BFA393;
-  text-shadow: 4px 3px 2px #595519;
+  background-color: #8C4830;
+  color: #F2F2F0;
+  border-top: 3px solid #F2F2F0;
+  border-bottom: 3px solid #F2F2F0;
+  text-shadow: 4px 3px 2px #BFA393;
 }
-.ato{
-  justify-content: center;
-  text-align: center;
-  font-size: 2vw;
-  background-color: wheat;
-  color: black;
-}
-.info1{
+
+.info1 {
   display: flex;
-  background-color: #595519;
+  background-color: #BFA393;
   text-align: center;
   justify-content: center;
   flex-direction: row-reverse;
-    
-}
-.info1 img{
-    position: relative;
-    border-radius: 50%;
-    border: 1px solid#595519;
-    width: 15vw;
-    margin: 90px 30px 30px;
-    opacity: 90%;
-    box-sizing: border-box;
-    left: -17.5em;
-  
-  
-}
-.info1 p{
-    display: block;
-    color: #BFA393;
-    /*font-family:*/
-    font-size: 1.2vw;
-    width: 50%;
-    align-items: center;
-    text-align: justify;
-    text-indent: 10px;
-    justify-content: center;
-    
-  }
 
-.div{
+}
+
+.info1 img {
+  position: relative;
+  border-radius: 20px;
+  border: 5px solid #F2F2F0;
+  width: 15vw;
+  margin: 90px 30px 30px;
+  opacity: 90%;
+  box-sizing: border-box;
+  left: -7.5em;
+
+
+}
+
+.info1 p {
+  display: block;
+  color: #F2F2F0;
+  /*font-family:*/
+  font-size: 1.2vw;
+  width: 50%;
+  align-items: center;
+  text-align: justify;
+  text-indent: 10px;
+  justify-content: center;
+
+}
+
+.textoinfo {
   position: relative;
   right: 22em;
   top: 2em;
 }
-.div2{
+
+.textoinfo2 {
   position: relative;
   top: 12em;
   left: 11.8em;
-  
+
 }
-  #info2{
-  background-color: red;
-  width: 25%;
-  margin: auto;
-  padding-top: 25px;
-}
-#cesto{
-  background-color: white;
+
+#info2 {
+  background-color: #8C4830;
+  color: #F2F2F0;
   display: flex;
-  flex-direction: row-reverse;
+  text-align: center;
+  justify-content: center;
+  font-size: 2vw;
+  border-top: 3px solid #F2F2F0;
+  border-bottom: 3px solid #F2F2F0;
+  text-shadow: 4px 3px 2px #BFA393;
   
 }
 
-#cesto img{
-    position: relative;
-    border-radius: 50%;
-    border: 1px solid#595519;
-    width: 17vw;
-    margin: 90px 30px 30px;
-    opacity: 90%;
-    box-sizing: border-box;
-    right: 16em;
+#cesto {
+  background-color: #BFA393;
+  display: flex;
+  flex-direction: row-reverse;
+
 }
-#cesto p{
-  color: #BFA393;
+
+#cesto img {
+  position: relative;
+  border-radius: 20px;
+  border: 5px solid #F2F2F0;
+  width: 17vw;
+  margin: 90px 30px 30px;
+  opacity: 90%;
+  box-sizing: border-box;
+  right: 6.6em;
+}
+
+#cesto p {
+  color: #F2F2F0;
   /*font-family:*/
   font-size: 1.2vw;
   width: 50%;
   text-indent: 10px;
- 
+
 }
-.textocentro{
+#cesto p a{
+  text-decoration: none;
+  color: #8C4830;
+}
+
+.textocentro {
   position: relative;
   top: 12em;
   left: 11.8em;
-  
-  
-  
-} 
-.textocima{
+
+
+
+}
+
+.textocima {
   position: relative;
   right: 21em;
   top: 2em;
 }
-#quebra{
-  background-color: red;
+
+#quebra {
+  background-color: #8C4830;
+  color: #F2F2F0;
   width: 25%;
   margin: auto;
-  padding-top: 25px;
-} 
-#sepulcro{
-  background-color: black;
-  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 2vw;
+  border-radius: 10em;
+  border-top: 3px solid #F2F2F0;
+  border-bottom: 3px solid #F2F2F0;
+  text-shadow: 4px 3px 2px #BFA393;
 }
 
+.ato {
+  justify-content: center;
+  text-align: center;
+  font-size: 2vw;
+  background-color: #8C4830;
+  color: #F2F2F0;
+  border-top: 3px solid #F2F2F0;
+  border-bottom: 3px solid #F2F2F0;
+  text-shadow: 4px 3px 2px #BFA393;
 
-#sepulcro img{
-  height: 20em;
-  width: 30em;
+}
+
+#sepulcro {
+  background: url(cruzdecristo.jpg) no-repeat;
+  height: 40em;
+  background-size: cover;
+  background-position: center, center;
+  padding: 1em;
+}
+
+#sepulcro .historia {
+  width: 50%;
+  color: #F2F2F0;
+  background-color: #8C4830;
+  padding: 0.5em;
   position: relative;
-  margin-top: 2em;
-  left: 37.2%;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  border-radius: 1em;
+  
+
+
+}
+
+footer {
+  background-color: black;
+  border-top: 1px solid #F2F2F0;
   
 }
-footer{
-  background-color: wheat;
+
+footer p {
+  font-size: 1.2vw;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+footer img {
+  width: 45px;
+  position: relative;
+  left: 47%;
+  padding-top: 1em;
+
+
+
+}
+
+#fim {
+  border-top: 1px solid #F2F2F0;
+  background-color: black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+#fim .fim2 {
+  padding: 0.3em;
 }
