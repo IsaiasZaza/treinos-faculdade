@@ -20,38 +20,56 @@
 
         </ul>
     </nav>
-    <div class="container">
-        <img src="decorbane.png">
-        <h1>Dia do Decorador: O toque que transforma um ambiente</h1>
-        
-        <h4> <div class="Decoracao">Decoração</div> |30 de maio</h4>
-        
-    </div>
-    
+
+
 </header>
 
 <body>
     <main>
-        
-        <section>
-            <div id="texto">
-                <p>O que é ser um decorador?
-                    Projeta soluções para espaços interiores residenciais, comerciais e institucionais, visando
-                    harmonizar
-                    móveis, objetos e acessórios sem alteração física da obra. Pesquisa produtos e materiais, planeja
-                    cores,
-                    acabamentos e iluminação de acordo com a personalidade e necessidades do cliente.</p>
-            </div>
-            <div id="texto2">
-                <p>Quem pode ser decorador?
-                    Designer de interiores x decorador: entenda as diferenças
-                    Para exercer a profissão de Decorador, o profissional não precisa ter formação especializada. Ele
-                    pode se basear apenas no seu bom gosto ou fazer cursos livres, inclusive online.</p>
+        <div class="slider">
+            
+            <div class="slides">
+                <!--Radio inicio-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--Radio fim-->
+                <!--Radio imagens-->
 
+                <div class="slide first">
+                    <img src="decorbane.png" alt="imagem 1">
+                </div>
+                <div class="slide">
+                    <img src="cruzdecristo.jpg" alt="imagem 2">
+                </div>
+                <div class="slide">
+                    <img src="tumulo-vazio,jpg.jpg" alt="imagem 3">
+                </div>
+                <div class="slide">
+                    <img src="chatgpt.jpg" alt="imagem 4">
+                </div>
+                <!--Radio imagens fim-->
+
+                <!--Radio nav-->
+                <div class="nav-auto">
+                    <div class="autobtn1"></div>
+                    <div class="autobtn2"></div>
+                    <div class="autobtn3"></div>
+                    <div class="autobtn4"></div>
+                    <!--Radio nav-fim-->
+                </div>
             </div>
+            <div class="manual-nav">
+                <label for="radio1" class="manual"></label>
+                <label for="radio2" class="manual"></label>
+                <label for="radio3" class="manual"></label>
+                <label for="radio4" class="manual"></label>
             </div>
-        </section>
+        </div>
+
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
