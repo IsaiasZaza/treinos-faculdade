@@ -1,25 +1,29 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
-body {
-    background-color: #D7D9D9;
-}
+
 
 
 .menu-h {
-    background: linear-gradient(to right, rgb(0, 0, 126), blue);
+    margin: 0 auto;
+    max-width: 800px;
     width: 100%;
     text-align: center;
     justify-content: center;
     display: flex;
+    
+    
 }
 
 .menu-h ul {
     list-style-type: none;
     padding: 0;
     background-color: rgba(255, 255, 255, 0.021);
+    
+    
 }
 
 .menu-h ul li {
@@ -31,19 +35,27 @@ body {
     text-decoration: none;
     display: inline-block;
     transition: background .5s;
-    color: white
+    color: blue;
 }
 
 .menu-h ul li a:hover {
     color: rgb(252, 212, 139);
+    
+}
+.linha{
+    border-top: 1px solid black;
+    padding: 5px;
+    max-width: 800px;
+    margin: 0 auto;
 
 }
-
 .slider {
     margin: 0 auto;
     width: 800px;
     height: 400px;
     overflow: hidden;/**estudar esse comando**/
+    
+    
 }
 .slides{
     width: 400%;
@@ -52,14 +64,19 @@ body {
 }
 .slider input{
     display: none;
+    
 }
 .slide{
     width: 25%;
     position: relative;
+    transition: 3s;
+    
 }
 
 .slide img{
     width: 800px;
+    
+    
 }
 .manual-nav{
     position: absolute;
@@ -67,20 +84,23 @@ body {
     margin-top: -40px;
     display: flex;
     justify-content: center;
+    
+    
 }
 .manual{
-    border: 2px solid red;
+    border: 2px solid blue;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
+    
 }
 .manual:not(:last-child){
     margin-right: 30px;
 }
 
 .manual:hover{
-    background-color: red;
+    background-color: white;
 }
 #radio1:checked ~ .first{
     margin-left: 0;
@@ -100,6 +120,7 @@ body {
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
+    
 }
 .nav-auto{
     position: absolute;
@@ -108,63 +129,117 @@ body {
     display: flex;
     justify-content: center;
     
+    
+    
 }
 
 .nav-auto div:not(:last-child){
     margin-right: 30px;
 }
 #radio1:checked ~ .nav-auto .autobtn1{
-    background-color: black;
+    background-color: white;
 }
 #radio2:checked ~ .nav-auto .autobtn2{
-    background-color: black;
+    background-color: white;
 }
 #radio3:checked ~ .nav-auto .autobtn3{
-    background-color: black;
+    background-color: white;
 }
 #radio4:checked ~ .nav-auto .autobtn4{
-    background-color: black;
+    background-color: white;
 }
-
-/**.container img {
-    display: flex;
-    margin: auto;
-    width: 70%;
-    height: 30vw;
-    padding-top: 1em;
-    border-radius: 40px;
+.pontos{
+    
+    margin: 0 auto;    
+    max-width: 800px;
+   
 }
-
-.container h1 {
-    position: absolute;
-    top: 15%;
-    left: 33.2%;
-    width: 35%;
+.pontostext{
+    color: white;
     display: flex;
     text-align: center;
     justify-content: center;
-    text-shadow: 5px 2px 2px black;
+    font-size: 25px;
+    text-shadow: 2px 1px 1px red;
+    
 }
-
-.container h4 {
-    position: absolute;
-    top: 30%;
-    left: 33.2%;
-    width: 35%;
+#caixa{
     display: flex;
     text-align: center;
     justify-content: center;
-
+    padding: 30px;
+    
+    
 }
-
-.Decoracao {
-    color: red;
+.caixa1 p{
+    position: relative;
+    left: -4.3em;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
 }
-
+.caixa2 p{
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;    
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}    
+.caixa3 p{
+    position: relative;
+    left: 4.4em;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
 #texto {
     padding-top: 25px;
 }
+.trocarchapa{
+    margin: 0 auto;
+    width: 800px;
+    height: 35vw;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    
+    
+    
 
+}
+.trocarchapa p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    position: relative;
+    font-size: 45px;
+    
+}
+.chapa2{
+    color: black;
+    padding: 2em;
+    font-size: 35px;
+    text-align: justify;
+}
 #texto p {
     display: flex;
     justify-content: center;
@@ -196,3 +271,9 @@ body {
     border-bottom: 2px solid black;
 
 }
+footer {
+    background: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
