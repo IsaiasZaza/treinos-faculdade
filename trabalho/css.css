@@ -4,6 +4,9 @@
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
+body {
+    background-color: #B4BFB5;
+}
 
 
 
@@ -15,6 +18,11 @@
     justify-content: center;
     display: flex;
     background-color: #D7D9D9;
+    border-top: 3px solid #2E5927;
+    border-bottom: 3px solid #2E5927;
+    border-left: 3px solid #2E5927;
+    border-right: 3px solid #2E5927;
+
 
 
 }
@@ -32,24 +40,23 @@
 }
 
 .menu-h ul li a {
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
     display: inline-block;
     transition: background .5s;
     color: #2E5927;
+    font-size: 1.5vw;
 }
 
 .menu-h ul li a:hover {
     color: #B4BFB5;
-
 }
 
 .linha {
-    border-top: 1px solid #2E5927;
+    border-top: 2px solid #2E5927;
     padding: 5px;
-    max-width: 800px;
-    margin: 0 auto;
-
+    max-width: 795px;
+    margin: 10px auto;
 }
 
 .slider {
@@ -58,7 +65,10 @@
     height: 400px;
     overflow: hidden;
     /**estudar esse comando**/
-    
+    border-top: 3px solid #2E5927;
+    border-bottom: 3px solid #2E5927;
+    border-left: 3px solid #2E5927;
+    border-right: 3px solid #2E5927;
 
 
 }
@@ -78,13 +88,10 @@
     width: 25%;
     position: relative;
     transition: 3s;
-
 }
 
 .slide img {
     width: 800px;
-
-
 }
 
 .manual-nav {
@@ -93,8 +100,6 @@
     margin-top: -40px;
     display: flex;
     justify-content: center;
-
-
 }
 
 .manual {
@@ -103,7 +108,6 @@
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
-
 }
 
 .manual:not(:last-child) {
@@ -111,7 +115,7 @@
 }
 
 .manual:hover {
-    background-color: #D7D9D9;
+    background-color: #2E5927;
 }
 
 #radio1:checked~.first {
@@ -136,7 +140,6 @@
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
-
 }
 
 .nav-auto {
@@ -145,9 +148,6 @@
     margin-top: 360px;
     display: flex;
     justify-content: center;
-
-
-
 }
 
 .nav-auto div:not(:last-child) {
@@ -174,15 +174,12 @@
     margin: 0 auto;
     width: 800px;
     height: 35vw;
-    border-top: 2px solid #B4BFB5;
-    border-bottom: 2px solid #B4BFB5;
-    border-left: 2px solid #B4BFB5;
-    border-right: 2px solid #B4BFB5;
+    border-top: 3px solid #2E5927;
+    border-bottom: 3px solid #2E5927;
+    border-left: 3px solid #2E5927;
+    border-right: 3px solid #2E5927;
     background-color: #D7D9D9;
-    margin:10px auto;
-
-
-
+    margin: 10px auto;
 }
 
 .trocarchapa p {
@@ -192,8 +189,7 @@
     color: #2E5927;
     position: relative;
     font-size: 45px;
-    text-shadow: 2px 1px  2px #D7D9D9;
-
+    text-shadow: 2px 1px 2px #D7D9D9;
 }
 
 .chapa2 {
@@ -214,16 +210,17 @@
     width: 800px;
     text-align: justify;
     margin: 10px auto;
-    border-top: 2px solid #B4BFB5;
-    border-bottom: 2px solid #B4BFB5;
-    padding: 2px;
+    border-top: 3px solid #2E5927;
+    border-bottom: 3px solid #2E5927;
+    border-left: 3px solid #2E5927;
+    border-right: 3px solid #2E5927;
     background-color: #D7D9D9;
     color: #2E5927;
 }
 
 
 
-.top1decor{
+.top1decor {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -233,99 +230,118 @@
     display: block;
     color: #2E5927;
 }
-#mae1{
+#mae1 {
     display: flex;
     position: relative;
     justify-content: space-between;
     max-width: 800px;
     margin: 0 auto;
-    
+    margin: 5px auto;
 }
-.subtitulo p{
+
+#mae1 img {
+    border-top: 2px solid #2E5927;
+    border-bottom: 2px solid #2E5927;
+    border-left: 2px solid #2E5927;
+    border-right: 2px solid #2E5927;
+    border-radius: 10px;
+}
+
+#mae1 button {
+    width: 150px;
+    margin: 3px auto;
+    border-radius: 10px;
     background-color: #D7D9D9;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    text-shadow: 2px 2px 2px white;
-    border-top: 2px solid #B4BFB5;
-    border-bottom: 2px solid #B4BFB5;
-    border-left: 2px solid #B4BFB5;
-    border-right: 2px solid #B4BFB5;
-    color: #2E5927;
-    
-}
-.subtitulo a{
     cursor: pointer;
-    font-size: 1.1vw;
-    color: #3d3d3d;
-    text-decoration: none;
-    
+    transition-duration: 1s;
+    border-top: 2px solid #2E5927;
+    border-bottom: 2px solid #2E5927;
+    border-left: 2px solid #2E5927;
+    border-right: 2px solid #2E5927;
 }
-.maeimagens{
-    width: 150px;
-    height: 170px;
-    
+
+#mae1 button:hover {
+    box-shadow: 2px 1px 1px black;
+    background-color: #2E5927;
+    color: white;
 }
-.maeimagens2{
-    width: 150px;
-    height: 170px;
-    
-    
-}
-.maeimagens3{
-    width: 150px;
-    height: 170px;
-    
-    
-    
-}
-.FernandaMarques{
+.biografia {
     background-color: #D7D9D9;
-    color: #2E5927;
-    justify-content: left;
-    flex-direction: row-reverse;
-    display: flex;
-    max-width: 800px;
-    margin: 0 auto;
-    
-    
-
-}
-.FernandaMarques p{
-    display: flex;
-
-    
-
-    
-    
-}
-.FernandaMarques img{
-    width: 150px;
-    position: relative;
-    margin-right: 20px;
-    
-    
-    
-}
-.biografia{
-    background-color: #D7D9D9;
-    max-width: 800px;
+    max-width: 802px;
     margin: 0 auto;
     display: flex;
     text-align: center;
     justify-content: center;
     font-size: 1.8vw;
-    border-top: 4px solid #B4BFB5;
-    border-bottom: 4px solid #B4BFB5;
-
+    border-top: 3px solid #2E5927;
+    border-bottom: 3px solid #2E5927;
+    border-left: 3px solid #2E5927;
+    border-right: 3px solid #2E5927;
+    color: #2E5927;
+    border-radius: 5px;
 }
-.barra{
-    border-bottom: 2px solid #B4BFB5;
-    padding: 5px;
+.subtitulo p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 2px 2px 2px white;
+    color: #2E5927;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.subtitulo a {
+    cursor: pointer;
+    font-size: 2.5vw;
+    text-decoration: none;
+}
+
+.maeimagens {
+    width: 150px;
+    height: 170px;
+}
+
+.maeimagens2 {
+    width: 150px;
+    height: 170px;
+}
+
+.maeimagens3 {
+    width: 150px;
+    height: 170px;
+}
+
+.FernandaMarques {
+    background-color: #D7D9D9;
+    color: #2E5927;
+    justify-content: left;
+    flex-direction: row-reverse;
+    display: flex;
     max-width: 800px;
+    margin: 10PX auto;
+    border-top: 3px solid #2E5927;
+    border-bottom: 3px solid #2E5927;
+    border-left: 3px solid #2E5927;
+    border-right: 3px solid #2E5927; 
+}
+
+.FernandaMarques p {
+    display: flex;
+    font-size: 1.3vw;
+}
+
+.FernandaMarques img {
+    width: 150px;
+    position: relative;
+    margin-right: 20px;
+}
+.barra {
+    border-bottom: 2px solid #2E5927;
+    padding: 5px;
+    max-width: 796px;
     margin: 10px auto;
 }
-.renata{
+
+.renata {
     max-width: 800px;
     margin: 0 auto;
     background-color: #D7D9D9;
@@ -335,18 +351,23 @@
     display: flex;
     max-width: 800px;
     margin: 0 auto;
-    
+    border-top: 3px solid #2E5927;
+    border-bottom: 3px solid #2E5927;
+    border-left: 3px solid #2E5927;
+    border-right: 3px solid #2E5927;
 }
-.renata p{
+
+.renata p {
     display: flex;
-    
-}
-.renata img{
+    font-size: 1.3vw;
+}   
+.renata img {
     width: 150px;
     position: relative;
     margin-right: 20px;
 }
-.marcia{
+
+.marcia {
     max-width: 800px;
     margin: 0 auto;
     background-color: #D7D9D9;
@@ -355,35 +376,33 @@
     flex-direction: row-reverse;
     display: flex;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 10px auto;
+    border-top: 3px solid #2E5927;
+    border-bottom: 3px solid #2E5927;
+    border-left: 3px solid #2E5927;
+    border-right: 3px solid #2E5927;
 }
-.marcia p{
+
+.marcia p {
     display: flex;
+    font-size: 1.3vw;
 }
-.marcia img{
+
+.marcia img {
     width: 150px;
     position: relative;
     margin-right: 20px;
 }
-.rodape img{
+
+.rodape img {
     width: 50px;
     color: white;
 }
+
 footer {
-    background: #333;
+    border-top: 4px solid #2E5927;
+    background: #575757;
     padding: 20px;
     color: #fff;
     text-align: center;
-
-
 }
-
-#mae1 button{
-    width: 150px;
-    
-}
-#mae1 button:hover{
-    background-color: red;
-    
-}
-/*resolver os bottons
