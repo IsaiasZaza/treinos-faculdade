@@ -159,5 +159,27 @@ function addcalc(c, d) {
 }
 console.log(calc(50, 10))
 */
-let names = ['pedro', ['isaias', 'gusta']]
-console.log(names[1][0]);
+/*let ingredientes = [
+  'agua',
+  'farinha',
+  'ovo',
+  'leite',
+  'sal'
+];
+ingredientes.pop();
+ingredientes.shift();
+console.log(ingredientes);
+console.log(`total de ingredientes: ${ingredientes.length}`);
+*/
+let carros = ['BMW', 'Ferrari', 'mercedes']
+let x = 1;
+console.log('1. ' + carros[x]);
+carros[0] = 'Audi';
+console.log('2.  Lista com Audi');
+console.log(carros);
+carros.push('Volvo');
+console.log('3. Lista com Volvo');
+console.log(carros)
+
+console.log('4. itens no array:')
+console.log(carros.length);
