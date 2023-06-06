@@ -180,6 +180,10 @@ console.log(carros);
 carros.push('Volvo');
 console.log('3. Lista com Volvo');
 console.log(carros)
-
 console.log('4. itens no array:')
 console.log(carros.length);
+
+
+for(n = 0; n < 10; n++){
+  console.log('Gomes ')
+}
