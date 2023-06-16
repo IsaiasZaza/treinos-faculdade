@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+#fullscreen-div {
+    height: 150px;
+    padding: 1rem;
+    background-color: pink;
+    width: 20%;
+}
+
+#logger {
+    height: 80px;
+    padding: 0 0.5rem;
+    background-color: white;
+    overflow: scroll;
+}
+#toggle-fullscreen{
+    color: white;
+    background-color: blue;
+    padding: 7px 15px;
+}
