@@ -30,49 +30,89 @@ nav{
     margin-left: 32px;  
 }
 #container{
-    display: flex;
+    text-align: center;
+    font-size: 4vh;
+    margin: 0 auto;
+    border-bottom: 3px solid black;;
+    max-width: 800px;
+}
+#tit{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    text-align: center;
+    font-size: 3vh;
+    margin-top: 1em;
+    margin-left: 1.1em;
+    margin-right: 1.1em;
+
 }
 #imagem1{
     background-color: rgb(92, 91, 91);
-    width: 100%;
+    width: auto;
     height: 50vh;
     background-size: cover;
     background-position: center;
-}
-
-#imagem1 h1{
-    color: white;
-    font-size: 5vh;
-    margin-left: 1.5em;
-    padding: 1em;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 2em;
+    margin-right: 2em;
+    cursor: default;
 }
 #imagem1 img{
-    width: 550px;
     position: relative;
-    left: 60%;
-    top: -60%;
+    border-radius: 20px;
+    border: 5px solid #F2F2F0;
+    width: 18vw;
+    opacity: 90%;
+    box-sizing: border-box;
+    right: 6.6em;
 }
 #imagem1 h2{
     color: white;
     font-size: 4vh;
-    text-align: left;
-    margin-left: 3em;
+    width: 100%;
+    position: relative;
+    right: 5%;
 }
 #imagem1 p{
     color: white;
-    font-size: 3vh;
+    font-size: 3.5vh;
     width: 50%;
-    text-align: left;
-    padding: 1em;
-    margin-left: 3em;
+    position: relative;
+    top: 30%;
+    right: 4em;
+    text-align: justify;
 }
 #imagem2{
-    background-color: black
+    background-color: rgb(92, 91, 91);
+    width: auto;
+    height: 60%;
+    cursor: default;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 #imagem2 h2{
+    background-color: rgb(0, 0, 0);
     color: white;
     border-top: 1px solid red;
     border-bottom: 1px solid red;
     text-align: center;
     font-size: 4vh;
+}
+#imagem2 p{
+    background-color: rgb(92, 91, 91);
+    width: 60%;
+    font-size: 3.5vh;
+    color: white;
+    padding: 5em;
+    margin-left: -1.0em;
+}
+#imagem2 img{
+    width: 550px;
+    position: relative;
+    left: 60%;
+    top: -50%;
 }
