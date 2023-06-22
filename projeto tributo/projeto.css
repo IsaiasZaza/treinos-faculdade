@@ -3,8 +3,6 @@
   font-family: Andale Mono, monospace;
   margin: 0;
   box-sizing: border-box;
-
-
 }
 
 .menu-h {
@@ -30,7 +28,7 @@
 }
 
 .menu-h ul li a {
-  padding: 25px;
+  padding: 10px;
   text-decoration: none;
   display: inline-block;
   transition: background .5s;

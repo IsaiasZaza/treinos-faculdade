@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://projetocolabora.com.br/wp-content/uploads/2021/06/acnur-1.jpg);
+}
+a{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;  
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.982);
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    
+}
+#container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#titulo{
+    position: absolute;
+    font-weight: bold;
+    width: 50%;
+    padding: 1em;
+    font-size: 2.5vh;
+    border-bottom: 2px solid black;
+}
+.texto{
+    width: 100%;
+    font-size: 3vh;
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 35%);   
+}
+.texto p{
+    padding: 3em;
+    font-weight: bolder;
+    text-align: initial;
+    width: 100%;
+}

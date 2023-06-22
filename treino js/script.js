@@ -171,7 +171,7 @@ ingredientes.shift();
 console.log(ingredientes);
 console.log(`total de ingredientes: ${ingredientes.length}`);
 */
-let carros = ['BMW', 'Ferrari', 'mercedes']
+/*let carros = ['BMW', 'Ferrari', 'mercedes']
 let x = 1;
 console.log('1. ' + carros[x]);
 carros[0] = 'Audi';
@@ -186,4 +186,31 @@ console.log(carros.length);
 
 for(n = 0; n < 10; n++){
   console.log('Gomes ')
+*/
+/*let personagem = {
+  nome: 'Isaias',
+  idade: 90,
+  pais: 'Brasil',
+  caracteriticas: {
+    força: 20,
+    magia: 5,
+    stamina: 10
+  }
 }
+console.log(`${personagem.caracteriticas.stamina}`)
+console.log(`${personagem.idade} tem ${personagem.nome} mora em ${personagem.pais}`)
+*/
+
+/*let persona = {
+  nome: 'Isaias',
+  sobrenome: 'Goncalves',
+  Idade: 90,
+  nomeCompleto: function() {
+    return this.nome + ' ' + this.sobrenome;
+  }
+}
+console.log(persona.nomeCompleto());
+*/
+/*for (n = 0; n < 10; n++ ){
+  console.log('eu te vi ' + n)
+}*/

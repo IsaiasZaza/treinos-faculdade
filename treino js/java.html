@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="projeto.css">
+    <title>Gerador de Senha</title>
 </head>
-<body>
-    <h1>Ola JavaScript</h1>
 
-    <script src="script.js"></script>
+<body>
+    <div id="register-container">
+        <div id="register-banner">
+            <div id="banner-layer">
+                <h1>Seja-Bem-Vindo</h1>
+            </div>
+        </div>
+        <div id="register-form">
+            <h2>Crie Sua conta</h2>
+            <p>Registre-se para ultilizar todas as funcionalidades so sistema</p>
+            <div class="form-control">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Digite o seu nome">
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" type="email" id="email" placeholder="Digite o seu email">
+            </div>
+            <P>Quer ajuda para criar uma senha segura?
+            <span id="generate-password">Clique Aqui.</span>
+            </P>
+            <div id="generated-password">
+                <p>Aqui esta a sua senha</p>
+                <h4></h4>
+            </div>
+            <div class="form-control">
+                <label for="password">Senha</label>
+                <input type="text" type="password" id="password" placeholder="Digite a sua senha">
+            </div>
+            <div class="form-control">
+                <label for="name">Confirmação de Senha</label>
+                <input type="text" type="confirmpassword" id="confirmpassword"
+                    placeholder="Digite a sua senha novamente">
+            </div>
+            <input type="submit" value="Cadastrar">
+        </div>
+    </div>
+
+    <script src="script2.js" defer></script>
 </body>
+
 </html>

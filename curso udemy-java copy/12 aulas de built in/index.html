@@ -1,0 +1,25 @@
+<html>
+<head>
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="toggleForm()">Mostrar formulário</button>
+  <form id="meuFormulario" class="hidden">
+    <!-- Seus campos de formulário aqui -->
+    <input type="text" name="nome" placeholder="Nome"><br>
+    <input type="email" name="email" placeholder="Email"><br>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script>
+    function toggleForm() {
+      var formulario = document.getElementById("meuFormulario");
+      formulario.classList.toggle("hidden");
+    }
+  </script>
+</body>
+</html>
