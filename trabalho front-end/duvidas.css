@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 a{
     margin: 15px;
     text-decoration: none;
@@ -10,15 +11,13 @@ a{
 }
 .logo{
     font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;  
+    text-transform: uppercase;  
 }
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.982);
-    border-bottom: 1px solid black;
     font-family: sans-serif;
 }
 .nav-list{
@@ -26,13 +25,13 @@ nav{
     display: flex;
 }
 .nav-list li{
-    letter-spacing: 3px;
-    margin-left: 32px;  
+    margin-left: 16px;
+    
 }
 #duvidasTitle{
     text-align: center;
     font-size: 4vh;
-    margin: 0 auto;
+    margin: 1em auto;
     border-bottom: 3px solid black;;
     max-width: 800px;
 }
@@ -47,7 +46,7 @@ nav{
     text-align: center;
     font-size: 3vh;
     margin: 0 auto;
-    margin-top: 1em;
+    margin-top: 0.8em;
     max-width: 1071px;
 }
 #imagem1, #imagem2, #imagem3, #imagem4, #imagem5, #imagem6{

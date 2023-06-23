@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.982);
+    font-family: sans-serif;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    margin-left: 16px;
+    
+}

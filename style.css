@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.982);
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    width: auto;
+    align-items: center;
+}
