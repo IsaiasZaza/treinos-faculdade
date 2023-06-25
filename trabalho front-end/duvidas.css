@@ -8,9 +8,10 @@ a{
     text-decoration: none;
     color: white;
 }
-.logo{
-    font-size: 24px;
-    text-transform: uppercase;  
+#logo{
+    margin-left: 5em;
+    color: #ffffff;
+    font-size: 3.9vh;
 }
 nav{
     display: flex;
@@ -24,8 +25,10 @@ nav{
     display: flex;
 }
 .nav-list li{
-    margin-left: 16px;
-    
+    margin-left: 16px; 
+}
+.nav-list a:hover{
+    color: #a4a4a4;
 }
 #duvidasTitle{
     text-align: center;
@@ -35,7 +38,6 @@ nav{
     max-width: 800px;
 }
 #container{
-    max-width: 1280px;
     margin: 0 auto;
 }
 #title{
@@ -46,7 +48,7 @@ nav{
     font-size: 3vh;
     margin: 0 auto;
     margin-top: 0.8em;
-    max-width: 1103px;
+    max-width: 1800px;
 }
 #imagem1, #imagem2, #imagem3, #imagem4, #imagem5, #imagem6{
     background-color: rgb(92, 91, 91);
@@ -55,8 +57,8 @@ nav{
     background-position: center;
     display: flex;
     flex-direction: row-reverse;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
     cursor: default;
 }
 #imagem1 img, #imagem2 img, #imagem3 img, #imagem4 img, #imagem5 img, #imagem6 img{
@@ -77,4 +79,11 @@ nav{
     width: 70%;
     text-align: justify;
 }
-
+footer {
+    background: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 2vh;
+    margin-top: 1em;
+}

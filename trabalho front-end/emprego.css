@@ -9,9 +9,10 @@ a{
     text-decoration: none;
     color: white;
 }
-.logo{
-    font-size: 24px;
-    text-transform: uppercase;  
+#logo{
+    margin-left: 5em;
+    color: #ffffff;
+    font-size: 3.9vh;
 }
 nav{
     display: flex;
@@ -26,7 +27,13 @@ nav{
 }
 .nav-list li{
     margin-left: 16px;
-    
+}
+.nav-list a:hover{
+    color: #a4a4a4;
+}
+#container{
+    max-width: 1680px;
+    margin: 0 auto;
 }
 #nomeTitulo{
     text-align: center;
@@ -65,7 +72,7 @@ nav{
 #documentos h3{
     color: red;
     margin-top: 2em;
-    margin-left: 5em;
+    margin-left: 5.7em;
     font-size: 3vh;
 }
 #organizacaoParceiras h3{
@@ -82,9 +89,7 @@ nav{
 }
 #organizacaoParceiras{
     text-align: justify;
-    width: 80%;
-    position: relative;
-    left: 10%;  
+    width: 79%;  
     font-size: 3vh;
 }
 #migracoes{
@@ -95,4 +100,18 @@ nav{
 #associacao a{
     color: black;
     text-decoration: underline;
+}
+#associacao{
+    position: relative;
+    left: 13%;
+    margin: 0 auto;
+    align-items: center;
+}
+footer {
+    background: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 2vh;
+    margin-top: 1em;
 }

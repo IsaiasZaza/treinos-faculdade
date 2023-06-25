@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    margin-left: 5em;
+    color: #ffffff;
+    font-size: 3.9vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.982);
+    font-family: sans-serif;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    margin-left: 16px;
+}
+
+.nav-list a:hover {
+    color: #a4a4a4;
+}
+
+#titulo {
+    text-align: center;
+    margin: 1em auto;
+    font-weight: bold;
+    font-size: 2.5vh;
+    border-bottom: 3px solid black;
+    ;
+    max-width: 800px;
+}
+
+#container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+#graficoImagem {
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center, center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+#graficoImagem p {
+    width: 100%;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+#imagem {
+    background-image: url(https://i0.wp.com/matheusdesouza.com/wp-content/uploads/2015/12/turkey-syrian-refugees-ku-014.jpg?fit=2560%2C1536&ssl=1);
+    height: 60vh;
+    background-position: center, center;
+    margin-top: 2em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+#imagem p,
+#imagemColombia p,
+#imagemSul p,
+#imagemIraque p {
+    font-size: 8vh;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    border-top: 1px solid rgb(1149, 159, 0, 0.605);
+    border-bottom: 1px solid rgba(149, 159, 0, 0.605);
+}
+
+#textoRefugiados,
+#textoColombia,
+#textoSul,
+#textoIraque {
+    width: 100%;
+    text-align: justify;
+    font-size: 3.5vh;
+    margin-top: 1em;
+}
+
+#imagemColombia {
+    background-image: url(https://static.dw.com/image/39844851_605.jpg);
+    height: 60vh;
+    background-position: center, center;
+    margin-top: 2em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+#imagemSul {
+    background-image: url(https://news.un.org/pt/sites/news.un.org.pt/files/styles/un_news_full_width/public/thumbnails/image/2016/09/09-16-2016SouthSudan-625x415.jpg?itok=Ek7ukVpv);
+    height: 60vh;
+    background-position: center, center;
+    margin-top: 2em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+#imagemIraque {
+    background-image: url(https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production+Library/18-10-2019-UNHCR1.jpg/image1170x530cropped.jpg);
+    height: 60vh;
+    background-position: center, center;
+    margin-top: 2em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+footer {
+    background: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 2vh;
+}
