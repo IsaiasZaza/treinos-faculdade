@@ -44,3 +44,36 @@ function checarTamanhoTexto(texto) {
 checarTamanhoTexto("kkkkkkkkkkkk");
 checarTamanhoTexto("e");
 checarTamanhoTexto("kkkkkkkkkkklk");
+
+/*metodos*/
+
+let marca = 'nike'
+console.log(marca.toUpperCase())
+
+let marca2 = marca.toUpperCase();
+console.log(marca2.toLowerCase())
+console.log(typeof marca2.toLowerCase);
+
+/*objetos*/
+let cachorro = {
+    patas: 4,
+    nome: 'Spike' 
+}
+console.log(cachorro.nome); /*chamar objetos sempre com : ou .*/
+console.log(cachorro.patas);
+let pessoa = {
+    nome: "Isaias",
+    idade: 18,
+    profissao: "Programados",
+}
+console.log(pessoa.idade);
+delete pessoa.idade;
+console.log(pessoa.nome);
+
+console.log(pessoa);
+
+pessoa.casado = false;
+console.log(pessoa.casado);
+
+pessoa.namorando = true
+console.log(pessoa.namorando)
