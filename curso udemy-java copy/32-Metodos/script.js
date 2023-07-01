@@ -46,5 +46,33 @@ console.log(car.includes("Ford"));
 let arr = [1,2,3,4,5,6,7,8,9,5,1,2,3]
 console.log(arr.reverse())
 
-/*remove tudo que não é string*/
+// remove tudo que não é string
+let nom = "   Matheus";
+let nomCorrigido = nom.trim()
+console.log(nom);
+console.log(nomCorrigido);
 
+// padstart serve para adicionar caracteristicas
+let sku = "34";
+console.log(sku.padStart(6, "0"))
+
+let sku2 = "7345";
+console.log(sku2.padStart(7,"erro"))
+
+// split Divide uma string por um separador, e retorna um array
+let frase = "testando o metodo split";
+console.log(frase.split(" "));
+let palavras = frase.split(" ");
+console.log(palavras)
+
+let produtos = "banana;carro;minhoca;salame;pedra;uva"
+console.log(produtos.split(';'));
+
+// junta elementos em uma array em uma frase, por meio de um separador
+let novafrase = palavras.join("@");
+console.log(novafrase);
+console.log(palavras.join(" "));
+
+// repete uma string de acordo com um parametro
+let palavs = "repetir";
+console.log(palavs.repeat(2))
