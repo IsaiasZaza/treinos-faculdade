@@ -4,5 +4,3 @@ let pessoa = {
 }
 console.log(pessoa.nome);
 console.log(pessoa.idade)
-
-document.getElementsByTagName("h1")
