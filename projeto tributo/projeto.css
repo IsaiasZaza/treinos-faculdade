@@ -44,60 +44,22 @@
 #conteudo {
   background: url(thechosen.png) no-repeat, black;
   background-size: cover;
+  background-position: center, center;
   width: 100%;
   height: 40em;
+  display: flex;
   text-align: center;
-  justify-content: center;
-
-
-
 
 }
-
-#conteudo h1 {
-  font-size: 80px;
-  justify-content: center;
-  text-align: center;
-  margin-left: 12em;
-  margin-block-start: 0em;
-  color: #F2F2F0;
-  text-shadow: 4px 3px 2px #BFA393;
-}
-
-
-#conteudo h2 {
-  font-size: 5em;
-  margin-block-end: 0.90em;
-  justify-content: center;
-  text-align: center;
-  margin-block-end: 1em;
-  margin-left: 12em;
-  color: #F2F2F0;
-  text-shadow: 4px 3px 2px #BFA393;
-}
-
-#conteudo h3 {
-  font-size: 20px;
-  margin-top: -3em;
-  justify-content: center;
-  text-align: center;
-  margin-left: 48em;
-  margin-block-end: 3em;
-  color: #F2F2F0;
-  text-shadow: 4px 3px 2px #BFA393;
-}
-
-
-
 #biografia {
   justify-content: center;
   text-align: center;
-  font-size: 2vw;
+  font-size: 3vw;
   background-color: #8C4830;
   color: #F2F2F0;
   border-top: 3px solid #F2F2F0;
   border-bottom: 3px solid #F2F2F0;
-  text-shadow: 4px 3px 2px #BFA393;
+  text-shadow: 1px 3px 2px #BFA393;
 }
 
 .info1 {
@@ -106,20 +68,18 @@
   text-align: center;
   justify-content: center;
   flex-direction: row-reverse;
-
+  width: 100%;
+  margin: 0 auto;
 }
 
 .info1 img {
-  position: relative;
   border-radius: 20px;
-  border: 5px solid #F2F2F0;
+  border: 2px solid #F2F2F0;
   width: 15vw;
-  margin: 90px 30px 30px;
+  height: 5em;
+  margin: 1rem;
   opacity: 90%;
   box-sizing: border-box;
-  left: -7.5em;
-
-
 }
 
 .info1 p {
@@ -134,20 +94,6 @@
   justify-content: center;
 
 }
-
-.textoinfo {
-  position: relative;
-  right: 22em;
-  top: 2em;
-}
-
-.textoinfo2 {
-  position: relative;
-  top: 12em;
-  left: 11.8em;
-
-}
-
 #info2 {
   background-color: #8C4830;
   color: #F2F2F0;
